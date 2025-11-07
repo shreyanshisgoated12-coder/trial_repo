@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTORS</title>
+    <style>
+        /* element selector */
+        div{
+            color: aquamarine;
+            background-color: yellowgreen;
+        }
+        /* class selectors */
+        .red{
+            color: aqua;
+        }
+
+        p:first-child{
+            background-color: blue;
+        }
+        /* psuedo selectors     */
+        a:hover{
+            background-color: brown;
+        }
+        a:visited{
+            color:aliceblue;
+        }
+        a{
+            color: black;
+        }    
+
+        /* desecendant selector */
+        div p{
+            background-color: wheat;
+        }
+        /* child selectors */
+        div > p{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque accusamus soluta necessitatibus maiores, repellat recusandae incidunt itaque blanditiis consequuntur possimus provident, cupiditate dicta?</div>
+    <div class="red">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor quae explicabo, ipsam ullam consequatur excepturi quia, culpa quasi pariatur error temporibus nulla sunt?</p>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusamus dolorem incidunt expedita commodi modi delectus. Facilis maxime adipisci repellendus minima, accusantium dicta magnam ad! Ad at voluptas incidunt natus dicta voluptates dolore numquam voluptatum aliquam fugiat quae, iste aut quos itaque error vitae perferendis?</p>
+        </article>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto similique recusandae animi enim dolorum consequatur.
+    </div>
+    <main class="one">
+        <p>Lorem, ipsum.</p>
+        <p>I am second</p>
+    </main>
+    <a href="https://www.google.com">please touch me</a>
+    
+
+</body>
+</html>

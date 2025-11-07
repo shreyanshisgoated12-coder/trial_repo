@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPECIFICITY</title>
+    <style>
+        /* the specificity of this code is 1 */
+        h1{
+            background-color: yellowgreen;
+            color: aqua;
+        }
+/* the specificty of the program is 10 */
+        .chhapra{
+            background-color: aqua;
+        }
+
+        .aaloo{
+            background-color: violet;
+        }
+        /* the specificty fo the program is 1+10 */
+        h1.rohan{
+            background-color: blanchedalmond;
+            color: brown;
+        }
+        .rohan{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="rohan" "aaloo" "chhapra">Hello I am from Lko</h1>
+    <p>
+        try to avoid doing these things like using multiple styling for same element and also do try to avoid inline styling
+    </p>
+</body>
+</html>
